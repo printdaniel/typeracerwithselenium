@@ -1,15 +1,11 @@
 import time
+from constantes import  *
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.expected_conditions import element_to_be_clickable
 from selenium.webdriver.support.expected_conditions import presence_of_all_elements_located
 from selenium.webdriver.support.ui import WebDriverWait
-
-PATH_TO_CHROMEDRIVER = r'/path/to/your/chromedriver' 
-TYPERACER_URL = 'https://play.typeracer.com/'
-DELAY_MS = 8
-DELAY_POST = 100000
 
 def run():
     ##################### PART 1 #####################
